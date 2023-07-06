@@ -1,0 +1,100 @@
+.fondblanc {
+    background-color: #ffffff;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 100vh;
+    opacity: 80%;
+    
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.textlogo {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+}
+
+.textlogo p {
+    margin: 10px 0;
+}
+
+#GrasVert {
+    color: #217723;
+    font-weight: bold;
+    font-size: 29px;
+    font-family: "Copperplate", fantasy;
+}
+
+#Normal {
+    color: #000000;
+    font-size: 18px;
+    font-family: "Copperplate", sans-serif;
+}
+
+#Gras {
+    color: #000000;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Copperplate", sans-serif;
+}
+
+#devis {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 850px;
+    background-color: #2bfce4;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid;
+    border-color: #21ad9c;
+    border-radius: 5px;
+
+}
+
+#devis p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Copperplate", fantasy;
+}
+
+#num {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    background-color: #217723;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid;
+    border-color: #133714;
+    border-radius: 5px;
+
+}
+
+#num p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Copperplate", fantasy;
+}
+
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(../Images/fond.png);
+    background-size: 100% 90%;
+    opacity: 0.4;
+}
